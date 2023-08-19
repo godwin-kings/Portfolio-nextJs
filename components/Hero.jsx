@@ -24,8 +24,8 @@ const Hero = () => {
             <h4 className=" text-pink-600 text-2xl py-2 tracking-widest md:text-left ">Hi! my name is</h4>
             <h1 className=" py-4 ">Bassey Godwin </h1>
             <h3 className=" text-2xl py-4">I am a full-stack Developer</h3>
-            <h3 className=" ">I'm a full-stack developer specialize in building web application with exceptional design and digital experience. 
-            Currently, i'm focused on building responsive full-stack web applications.
+            <h3 >I am a full-stack developer specialize in building web application with exceptional design and digital experience. 
+            Currently, i am focused on building responsive full-stack web applications.
             </h3>
           </div>
         </div>
@@ -36,7 +36,7 @@ const Hero = () => {
                <BsFillPersonLinesFill size={45} className="rounded-full shadow-lg shadow-gray-400 p-2"/>
         </div>
     </div>
-  );
+  )
 };
 
 export default Hero;

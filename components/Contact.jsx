@@ -25,7 +25,7 @@ const Contact = () => {
           <div className="  md:col-span-2 h-full  text-xl shadow-xl shadow-gray-400 w-full rounded-xl p-4  ">
             <div className="md:p-4 h-full flex flex-col justify-evenly">
               <div className="">
-                <Image className="rounded-xl" src={contact} />
+                <Image className="rounded-xl" src={contact} alt='' />
               </div>
               <div>
                 <h2 className="py-3 dark:text-[#ecf0f3]">Bassey Godwin</h2>
