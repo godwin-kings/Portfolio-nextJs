@@ -20,29 +20,49 @@ const Contact = () => {
         <h1 className="py-4 dark:text-[#ecf0f3]">Get in touch</h1>
 
         <div className="grid md:grid-cols-5 md:gap-8 ">
+          
           {/* Left side */}
 
           <div className="  md:col-span-2 h-full  text-xl shadow-xl shadow-gray-400 w-full rounded-xl p-4  ">
             <div className="md:p-4 h-full flex flex-col justify-evenly">
               <div className="">
-                <Image className="rounded-xl" src={contact} alt='' />
+                <Image className="rounded-xl" src={contact} alt="" />
               </div>
               <div>
                 <h2 className="py-3 dark:text-[#ecf0f3]">Bassey Godwin</h2>
-                <p className=" capitalize py-2 dark:text-[#ecf0f3] ">Frontend web developer</p>
-                <p className="py-4 dark:text-[#ecf0f3]"> I am available to freelance or fulltime positions. Contact me for discussion. </p>
+                <p className=" capitalize py-2 dark:text-[#ecf0f3] ">
+                  Frontend web developer
+                </p>
+                <p className="py-4 dark:text-[#ecf0f3]">
+                  {" "}
+                  I am available to freelance or fulltime positions. Contact me
+                  for discussion.{" "}
+                </p>
               </div>
 
-            {/* SOCIAL ICON */}
+              {/* SOCIAL ICON */}
 
-            <div  className=' flex justify-center items-center gap-16 p-4 dark:text-[#ecf0f3] '  ><FaLinkedin size={45} className="rounded-full shadow-lg shadow-gray-400 p-2"/>
-                <FaGithub size={45} className="rounded-full shadow-lg shadow-gray-400 p-2"/>
-                <HiOutlineMail size={45} className="rounded-full shadow-lg shadow-gray-400 p-2"/>
-               <BsFillPersonLinesFill size={45} className="rounded-full shadow-lg shadow-gray-400 p-2"/>
-        </div>
+              <div className=" flex justify-center items-center gap-16 p-4 dark:text-[#ecf0f3] ">
+                <FaLinkedin
+                  size={45}
+                  className="rounded-full shadow-lg shadow-gray-400 p-2"
+                />
+                <FaGithub
+                  size={45}
+                  className="rounded-full shadow-lg shadow-gray-400 p-2"
+                />
+                <HiOutlineMail
+                  size={45}
+                  className="rounded-full shadow-lg shadow-gray-400 p-2"
+                />
+                <BsFillPersonLinesFill
+                  size={45}
+                  className="rounded-full shadow-lg shadow-gray-400 p-2"
+                />
+              </div>
             </div>
-
           </div>
+          
           {/* Right side */}
 
           <div className=" w-full col-span-2 md:col-span-3 h-auto shadow-gray-400 rounded-xl md:p-4 xs:max-md:w-full">
@@ -50,7 +70,10 @@ const Contact = () => {
               <form action="">
                 <div className="grid md:grid-cols-2">
                   <div className="flex flex-col ">
-                    <label className="text-sm py-2 dark:text-[#ecf0f3] uppercase" htmlFor="input">
+                    <label
+                      className="text-sm py-2 dark:text-[#ecf0f3] uppercase"
+                      htmlFor="input"
+                    >
                       Name
                     </label>
                     <input
@@ -59,7 +82,10 @@ const Contact = () => {
                     />
                   </div>
                   <div className="flex flex-col ">
-                    <label className="text-sm py-2 dark:text-[#ecf0f3] uppercase" htmlFor="input">
+                    <label
+                      className="text-sm py-2 dark:text-[#ecf0f3] uppercase"
+                      htmlFor="input"
+                    >
                       phone number
                     </label>
                     <input
@@ -70,7 +96,10 @@ const Contact = () => {
                 </div>
 
                 <div className="flex flex-col py-2 ">
-                  <label className="text-sm py-2 dark:text-[#ecf0f3] uppercase" htmlFor="input">
+                  <label
+                    className="text-sm py-2 dark:text-[#ecf0f3] uppercase"
+                    htmlFor="input"
+                  >
                     email
                   </label>
                   <input
@@ -79,7 +108,10 @@ const Contact = () => {
                   />
                 </div>
                 <div className="flex flex-col py-2 ">
-                  <label className="text-sm py-2 dark:text-[#ecf0f3] uppercase" htmlFor="input">
+                  <label
+                    className="text-sm py-2 dark:text-[#ecf0f3] uppercase"
+                    htmlFor="input"
+                  >
                     message
                   </label>
                   <textarea
