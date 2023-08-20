@@ -35,12 +35,12 @@ const Navbar = () => {
   const [darkMode, setDarkMode] = useState(false);
 
   return (
-    <div className={darkMode ? "dark" : ""}>
+    <div className={darkMode ? "dark w-full" : " w-full"}>
       <div
         className={
           shadow
-            ? " fixed w-full h-[80px] bg-[#ecf0f3] flex justify-between z-10 items-center mx-auto px-4 top-0 darkMode: border-gray-900,  dark:bg-gray-900"
-            : " fixed w-full h-[80px] bg-[#ecf0f3] flex justify-between top-0 items-center mx-auto px-4 shadow-lg dark:bg-gray-900 z-10"
+            ? " fixed w-full h-[80px] bg-[#ecf0f3] flex justify-between z-100 items-center mx-auto px-4 top-0 darkMode: border-gray-900,  dark:bg-gray-900"
+            : " fixed w-full h-[80px] bg-[#ecf0f3] flex justify-between top-0 items-center mx-auto px-4 shadow-lg dark:bg-gray-900 z-100"
         }
       >
         <h3 className="text-black dark:text-[#ecf0f3]">MY PORTFOLIO</h3>
@@ -97,7 +97,7 @@ const Navbar = () => {
           className={
             !nav
               ? "absolute left-[-100%] top-0 z-100"
-              : " fixed top-0 z-100 left-0 w-full h-screen bg-black/70 "
+              : " fixed top-0 z-100 left-0 w-full h-full bg-black/70 "
           }
         >
           <div className="Fixed left-0 top-0   pt-8 w-[60%] bg-white h-full px-4 border border-r-gray-200 z-10 ease-in-out duration-300 dark:bg-gray-900">

@@ -9,9 +9,9 @@ const Hero = () => {
   return (
     <div
       id="hero"
-      className="w-full md:h-screen p-2 grid text-center items-center mt-16 dark:bg-gray-900"
+      className=" w-full p-2 grid text-center items-center mt-16 dark:bg-gray-900"
     >
-      <div className="max-w-[1240px] px-4 mx-auto grid md:grid-cols-2  ">
+      <div className="max-w-[1240px] w-full px-4 mx-auto grid md:grid-cols-2  ">
         <div className="col-span-1 flex md:text-left p-4">
           <div className="w-full h-auto mx-auto flex flex-col justify-center items-center ">
             <Image
